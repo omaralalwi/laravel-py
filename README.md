@@ -122,7 +122,7 @@ class LaravelPyController
 - **Argument & Environment Validation** 🔍 Restricts unauthorized input.
 - **Timeout Control** ⏳ Prevents long-running scripts.
 - **black list** for these vars `PATH,PYTHONPATH,LD_LIBRARY_PATH,LD_PRELOAD,PYTHONHOME`, can not passed . 
-- **Uses `proc_close` as an alternative to `shell_exec`**.
+- **Uses `proc_open` as an alternative to `shell_exec`**.
 
 ### 🔧 Flexible Configuration
 - Centralized settings via `ConfigManager`.
