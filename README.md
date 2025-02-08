@@ -7,7 +7,7 @@ Laravel wrapper for **[php-py package](https://github.com/omaralalwi/php-py)** p
 - [🔧 Requirements](#requirements)
 - [🚀 Installation](#installation-)
 - [🚀 Quick Start](#-quick-start)
-- [✨ Features Summary](#-features-summary)
+- [✨ Features](#-features)
 - [📋 Changelog](#-changelog)
 - [🧪 Testing](#-testing)
 - [🔒 Security](#-security)
