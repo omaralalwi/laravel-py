@@ -150,8 +150,6 @@ See detailed release notes in [CHANGELOG.md](CHANGELOG.md) 📜
 ## 🧪 Testing
 
 ```bash
-composer test
-OR
 ./vendor/bin/pest
 ```
 
