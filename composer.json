@@ -1,0 +1,77 @@
+{
+    "name": "omaralalwi/laravel-py",
+    "description": "Laravel wrapper for php-py package, to seamless enabling secure and efficient execution of Python scripts within PHP applications.",
+    "keywords": [
+        "laravel-py",
+        "laravel-python",
+        "python-python",
+        "php-py",
+        "python",
+        "python-php",
+        "deepseek-r1",
+        "laravel-api-server",
+        "python-in-laravel",
+        "php-pytho",
+        "laravel python integration",
+        "run python in php",
+        "omaralalwi",
+        "execute python from laravel",
+        "python shell execution",
+        "secure python execution",
+        "laravel python bridge",
+        "python subprocess in laravel",
+        "laravel exec python script"
+    ],
+    "homepage": "https://github.com/omaralalwi/laravel-py",
+    "license": "MIT",
+    "type": "library",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "omar alalwi",
+            "email": "omaralwi2010@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^8.0|^9.0|^10.0|^11.0",
+        "omaralalwi/php-py": "^1.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "pestphp/pest": "^1.23",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Omaralalwi\\LaravelPy\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Omaralalwi\\LaravelPy\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Omaralalwi\\LaravelPy\\LaravelPyServiceProvider"
+            ],
+            "aliases": {
+                "LaravelPy": "Omaralalwi\\LaravelPy\\LaravelPyFacade"
+            }
+        }
+    }
+}
