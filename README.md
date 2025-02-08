@@ -141,6 +141,11 @@ class LaravelPyController
 - Customizable for advanced use cases.
 
 ---
+### Important Critical Note: 
+
+❌ Never pass user-controlled input directly script, just pass scripts that you will need as a administrator (Just from Your side) .
+
+---
 
 ## 📋 Changelog
 
